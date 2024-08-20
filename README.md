@@ -48,37 +48,6 @@ $$ \text{Position }, (P) = (R,C) $$
 
 ![GUI](GUI_Chess.png)
 
-### Classes:
-- Game (concrete):
-  - Epic: User should be able to choose their moves and see game updates
-  - User stories: 
-    - Take user inputs
-    - Output the pieces and boards
-    - Record the historical moves
-- Pieces (abstract):
-  - Epic: User should be able to move each game piece
-  - User stories:
-    - Each piece has its own class that includes all commands and attributes
-- Board (concrete):
-  - Epic: User should have a clear depiction of the game board
-  - User Stories:
-   - Hold the unique location of each piece
-- User Input:
-  - Epic: Users should be able to control different aspects of the game with their keyboard
-  - User stories:
-    - As a user, I want to be able to choose which color I play as
-    - As a user, I want to be able to control my chess pieces with my keyboard
-   
-
-- Objects (composite pattern):
-  - Pawn (1)
-  - Knight (4)
-  - Bishop (4)
-  - Queen (8)
-  - King (10)
-
-
-*(strategy pattern): implementing piece functionality
  
 ## Class Diagram
 ![image](https://user-images.githubusercontent.com/89518835/145036362-84267055-8d74-4c2c-8be1-ba7e1684d342.png)
