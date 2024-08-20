@@ -46,7 +46,7 @@ $$ \text{Column index }, (C) = \[A, H\] $$
 
 $$ \text{Position }, (P) = (R,C) $$
 
-### Command Line Interface
+
 
 ### Graphical User Interface
 
